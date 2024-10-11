@@ -23,7 +23,7 @@ s2="my name is manish desai"
 s2="my birth date 17 november 2003"
 p1="\W+"
 print(split(p1,s2))
-#no skip and split
+#split match any digit
 p1="\d+"
 print(split(p1,s2))
 
